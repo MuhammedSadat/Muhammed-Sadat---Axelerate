@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+
+	<AddIn Type="Application">
+		<Name>Task1</Name>
+		<Assembly>Task1.dll</Assembly>
+		<AddInId>
+			E65D1B5C-F99F-4B7F-B752-0A4772DAD3F7
+		</AddInId>
+		<FullClassName>Axelerate.RevitSystem.ExecuteAddin</FullClassName>
+		<VendorId>Muhammed Sadat</VendorId>
+		<VendorDescription>www.sadat.vip</VendorDescription>
+	</AddIn>
+
+</RevitAddIns>

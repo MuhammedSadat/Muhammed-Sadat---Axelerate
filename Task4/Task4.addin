@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+
+	<AddIn Type="Application">
+		<Name>Task4</Name>
+		<Assembly>Task4.dll</Assembly>
+		<AddInId>
+			D5011608-AA4C-4E00-9673-08C70812C0CA
+		</AddInId>
+		<FullClassName>Task4.RevitSystem.App</FullClassName>
+		<VendorId>Muhammed Sadat</VendorId>
+		<VendorDescription>www.sadat.vip</VendorDescription>
+	</AddIn>
+
+</RevitAddIns>
