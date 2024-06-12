@@ -58,7 +58,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MVVM\Backup\Class1.cs" />
     <Compile Include="MVVM\Commands\RelayCommand.cs" />
     <Compile Include="MVVM\Commands\ViewModelBase.cs" />
     <Compile Include="MVVM\Model\DynamicLine.cs" />

@@ -12,11 +12,13 @@ namespace Task4.RevitSystem
     public class AdjustSectionBoxDepthHandler : IExternalEventHandler
     {
         #region Algorithm
+
         // ************************************************************ IMPORTANT ***********************************************************************
-        // * I would like to note that in the Revit API, you cannot directly modify a 2D Section view bounding box.                                     *
-        // * There are two ways to handle this:-                                                                                                        *
-        // * You can create a temporary 3D view, copy your 2D section into it, and then move it back to a new 2D section or make it 2D with z = 0.      *
-        // * Alternatively, you can copy the section view, delete it, and then recreate it with your desired bounding box                               *
+        // * In the Revit API, you cannot directly modify the bounding box of a 2D Section view.                                                        *
+        // * There are two common approaches to handle this limitation:                                                                                 *
+        // * 1. Create a temporary 3D view, copy your 2D section elements into it, adjust the bounding box as needed, and then convert it back to a 2D  *
+        // *    section with the desired bounding box.                                                                                                  *
+        // * 2. Copy the section view, delete the original, and recreate it with the desired bounding box dimensions.                                   *
         // ************************************************************ IMPORTANT ***********************************************************************
 
         // SetParameters Method:
